@@ -1,6 +1,7 @@
 {
-  "name": "scanyouraddress",
+  "name": "Address Scanner",
   "version": "0.0.1",
+  "icon": "./src/Assets/AppIcon/playstore.png",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -10,8 +11,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-ml-kit/text-recognition": "^1.5.1",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.10.0",
     "react": "18.2.0",
-    "react-native": "0.74.3"
+    "react-native": "0.74.3",
+    "react-native-image-picker": "^7.1.2",
+    "react-native-safe-area-context": "^4.10.8",
+    "react-native-screens": "^3.32.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
